@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div>
+      <app-hero></app-hero>
+    </div>
+    <hr class="new" />
+    <div class="power-bi">
+      <p class="content-p"><b>Power BI Experts</b></p>
+      <div class="row power-bi">
+        <div id="cards" *ngFor="let card of cards; let last = last" [ngClass]="{ 'last-child': last }">
+          <div style="display: inline-block;">
+            <app-cards></app-cards>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="case-studies">
+      <p class="content-p"><b>Case Studies</b></p>
+      <div class="row case-studies">
+        <div id="cards" *ngFor="let card of cards; let last = last" [ngClass]="{ 'last-child': last }">
+          <div style="display: inline-block;">
+            <app-cards></app-cards>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
