@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularAssignmentApp"
+    }
+  },
+  "defaultProject": "AngularAssignmentApp",
+  "cli": {
+    "analytics": "9f721fa7-b9bd-4159-a8b9-381bfb1cf2d0"
+  }
 }
